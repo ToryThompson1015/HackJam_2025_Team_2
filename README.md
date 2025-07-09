@@ -88,13 +88,13 @@ The preferred stack includes:
 
 ## 📣 Communication
 
-All team communication and announcements will happen via our [HackJam Discord](https://discord.gg/SWy2sRR6).
+All team communication and announcements will happen via our [HackJam Discord](https://discord.gg/GCjP5zWy).
 
 Suggested channels:
 - `#general-announcements` – All-team updates
 - `#team-xx-room` – Your private team space
 - `#help-desk` – Ask questions and get support
-
+A
 
 ---
 
