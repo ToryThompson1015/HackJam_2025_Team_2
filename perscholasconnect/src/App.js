@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import Homepage from './Homepage';
+import Login from './Pages/Login';      // <-- you'll create this next
+import Register from './Pages/Register';  // <-- and this too
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Navbar */}
+      <div className="navbar">
+        <div className="logo-section">
+          <h1>Per Scholas Connect</h1>
+        </div>
+        <div className="nav-buttons">
+          <Link to="/login"><button>Login</button></Link>
+          <Link to="/register"><button>Register</button></Link>
+        </div>
+      </div>
+
+      {/* Page Routes */}
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </>
   );
 }
 
