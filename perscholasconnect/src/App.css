@@ -158,13 +158,15 @@ body, html, .app-wrapper {
 }
 
 .image-row {
+  background-color: #4B3F72; /* deep purple */
+  padding: 40px 20px;
   display: flex;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  padding: 40px 20px;
-  background-color: white;
 }
+
+
 
 .image-row img {
   width: 400px;
