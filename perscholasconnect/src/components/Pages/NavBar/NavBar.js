@@ -1,5 +1,5 @@
 import React from "react";
-import toryProfile from "../../assets/images/staffprofile.jpg";
+import toryProfile from "../../../assets/images/staffprofile.jpg";
 import "./styles.css";
 
 function NavBar() {

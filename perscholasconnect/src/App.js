@@ -1,6 +1,6 @@
 import React from "react";
 // import { Routes, Route, Link } from "react-router-dom";
-import NavBar from "./Pages/NavBar/NavBar";
+import NavBar from "./components/Pages/NavBar/NavBar";
 import Homepage from "./Homepage";
 // import Login from './Pages/Login';
 // import Register from './Pages/Register';
