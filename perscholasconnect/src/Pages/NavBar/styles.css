@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.Navbar {
+  /* display: flex; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #0079c0;
+  padding: 20px 50px 20px 20px;
+}
+
+.Navbar a {
+  color: #09507c;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.Navbar a:hover {
+  text-decoration: underline;
+  color: #f58832;
+}
+
+.MainNav {
+  display: flex;
+  height: 58px;
+  justify-content: space-between;
+  gap: 77.5px;
+  align-items: center;
+  background-color: #7dc5d7;
+  padding: 0px 20px;
+  border-radius: 5px;
+}
+
+.Nav-header {
+  color: #09507c;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.NavLinks {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.ProfileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+.LogOutButton {
+  background-color: #f58832;
+  color: #09507c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 0px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+}
+.LogOutButton:hover {
+  background-color: #e07b2c;
+}
