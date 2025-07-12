@@ -9,10 +9,12 @@
   background-color: #f0f0f0;
 }
 
-body, html, .app-wrapper {
+body,
+html,
+.app-wrapper {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #ffffff;
   color: #000000;
   min-height: 100vh;
@@ -24,7 +26,7 @@ body, html, .app-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0033A0;
+  background-color: #0033a0;
   padding: 15px 30px;
   color: white;
 }
@@ -46,7 +48,7 @@ body, html, .app-wrapper {
 }
 
 .nav-buttons button {
-  background-color: #FFC72C;
+  background-color: #ffc72c;
   color: #000;
   border: none;
   padding: 10px 15px;
@@ -88,7 +90,7 @@ body, html, .app-wrapper {
 
 /* Footer always at bottom */
 .footer {
-  background-color: #0033A0;
+  background-color: #0033a0;
   color: white;
   padding: 20px;
   text-align: center;
@@ -97,7 +99,7 @@ body, html, .app-wrapper {
 }
 
 .footer a {
-  color: #FFC72C;
+  color: #ffc72c;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -110,7 +112,7 @@ body, html, .app-wrapper {
 .mission-block {
   display: flex;
   flex-direction: row;
-  background-color: #0071CE; /* Per Scholas Blue */
+  background-color: #0071ce; /* Per Scholas Blue */
   color: white;
   padding: 50px 30px;
   justify-content: center;
@@ -129,7 +131,7 @@ body, html, .app-wrapper {
 .mission-left h2 {
   font-size: 48px;
   font-weight: bold;
-  color: #FFC72C; /* Gold */
+  color: #ffc72c; /* Gold */
   line-height: 1.2;
   margin: 0;
 }
@@ -165,7 +167,7 @@ body, html, .app-wrapper {
 }
 
 .image-row {
-  background-color: #4B3F72; /* deep purple */
+  background-color: #4b3f72; /* deep purple */
   padding: 40px 20px;
   display: flex;
   justify-content: center;
@@ -173,12 +175,18 @@ body, html, .app-wrapper {
   flex-wrap: wrap;
 }
 
-
-
 .image-row img {
   width: 400px;
   max-width: 90%;
   border-radius: 12px;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
 .App {
   text-align: center;
   width: 100vw;
