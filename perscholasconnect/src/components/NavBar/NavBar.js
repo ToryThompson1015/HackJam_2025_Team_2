@@ -33,7 +33,7 @@ function NavBar() {
               </li>
 
               <li>
-                <a href="/contact">My Profile</a>
+                <a href="/dashboard">Dashboard</a>
               </li>
             </ul>
           </div>
@@ -48,4 +48,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBar; 
