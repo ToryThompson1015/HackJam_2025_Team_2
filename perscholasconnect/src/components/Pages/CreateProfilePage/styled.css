@@ -1,33 +1,41 @@
 .signin-container {
   display: flex;
   min-height: 100vh;
-  background-color: #f3f3f3;
+  background-color: #02273e;
+  justify-content: center;
+  align-items: center;
 }
 
 .signin-form {
-  flex: 0.75;
+  /* flex: 1; */
   padding: 20px 20px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   border-bottom-right-radius: 5%;
   border-top-right-radius: 5%;
+  color: white;
 }
 
 .signin-form h2 {
   font-size: 40px;
   margin-bottom: 5px;
   font-weight: 600;
+  color: #fec14f;
 }
 
 .subtext {
   margin-bottom: 0px;
-  color: #555;
+  color: #f58832;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .login-form label {
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 20px;
+  color: #7dc5d7;
+  font-size: 20px;
 }
 
 .login-form input {
@@ -35,7 +43,7 @@
   margin-top: 5px;
   border-radius: 6px;
   border: 1px solid #ccc;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .primary-btn {
@@ -55,7 +63,7 @@
   align-items: center;
   gap: 10px;
   margin: 30px 0;
-  color: #aaa;
+  color: #fec14f;
 }
 
 .divider hr {
@@ -76,6 +84,7 @@
   font-size: 15px;
   margin-bottom: 15px;
   cursor: pointer;
+  color: black;
 }
 
 .social-btn img {
@@ -83,9 +92,9 @@
 }
 
 .register-text {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #888;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #ccc;
 }
 
 .register-text a {
@@ -94,15 +103,33 @@
   text-decoration: none;
 }
 
-.login-image {
+.signup-image {
   flex: 1;
-  background: #000b49;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login-image img {
-  width: 100%;
-  height: 100vh;
+.signup-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+select {
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  color: black;
+}
+
+input {
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  color: black;
 }
