@@ -17,8 +17,8 @@ function CreateAccount() {
   return (
     <>
       <SignedOutNavBar />
-      <div className="login-container">
-        <div className="login-form">
+      <div className="signin-container">
+        <div className="signin-form">
           <h2>Let's get started!</h2>
           <p className="subtext">
             Please enter your account information below:

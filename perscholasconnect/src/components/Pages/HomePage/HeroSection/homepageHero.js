@@ -15,7 +15,7 @@ function HomePageHero() {
         </div>
       </div>
 
-      <div className="image-row">
+      {/* <div className="image-row">
         <img
           src="https://mentoringuniversity.com/wp-content/uploads/2024/08/Essential-Guide-to-Mentoring.jpg"
           alt="Students Working"
@@ -24,7 +24,7 @@ function HomePageHero() {
           src="https://www.interfolio.com/wp-content/uploads/Blog_MentoringStudentsGuide-scaled.jpg"
           alt="Mentor with Student"
         />
-      </div>
+      </div> */}
     </>
   );
 }

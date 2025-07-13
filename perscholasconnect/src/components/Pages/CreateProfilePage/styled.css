@@ -1,10 +1,10 @@
-.login-container {
+.signin-container {
   display: flex;
   min-height: 100vh;
   background-color: #f3f3f3;
 }
 
-.login-form {
+.signin-form {
   flex: 0.75;
   padding: 20px 20px;
   display: flex;
@@ -14,7 +14,7 @@
   border-top-right-radius: 5%;
 }
 
-.login-form h2 {
+.signin-form h2 {
   font-size: 40px;
   margin-bottom: 5px;
   font-weight: 600;
