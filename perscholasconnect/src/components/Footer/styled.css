@@ -1,0 +1,22 @@
+/* Footer always at bottom */
+.footer {
+  background-color: #0033a0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #ffc72c;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  margin: 5px 0;
+}

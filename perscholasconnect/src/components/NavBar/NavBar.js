@@ -8,7 +8,7 @@ function NavBar() {
       <nav className="Navbar">
         <div className="MainNav">
           <div className="Nav-header">
-            <h1>Per Scholas Connect</h1>
+            <h1>Per Scholas Connects</h1>
           </div>
 
           <div className="Nav-Links">

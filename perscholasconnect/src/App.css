@@ -2,14 +2,22 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
   text-align: center;
-  width: 100vw;
-  height: 100vh;
   background-color: #f0f0f0;
 }
 
-body,
+/* body,
 html,
 .app-wrapper {
   margin: 0;
@@ -20,176 +28,4 @@ html,
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #0033a0;
-  padding: 15px 30px;
-  color: white;
-}
-
-.logo-section {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-section img {
-  width: 35px;
-  height: 35px;
-}
-
-.navbar h1 {
-  margin: 0;
-  font-size: 22px;
-}
-
-.nav-buttons button {
-  background-color: #ffc72c;
-  color: #000;
-  border: none;
-  padding: 10px 15px;
-  margin-left: 10px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 20px;
-}
-
-.mission {
-  text-align: center;
-  max-width: 800px;
-  margin-bottom: 40px;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.image-row {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.image-row img {
-  width: 400px;
-  max-width: 90%;
-  border-radius: 12px;
-}
-
-/* Footer always at bottom */
-.footer {
-  background-color: #0033a0;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
-  margin-top: auto;
-}
-
-.footer a {
-  color: #ffc72c;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-/* Existing styles stay the same */
-
-.mission-block {
-  display: flex;
-  flex-direction: row;
-  background-color: #0071ce; /* Per Scholas Blue */
-  color: white;
-  padding: 50px 30px;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.mission-left {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  min-width: 250px;
-}
-
-.mission-left h2 {
-  font-size: 48px;
-  font-weight: bold;
-  color: #ffc72c; /* Gold */
-  line-height: 1.2;
-  margin: 0;
-}
-
-.mission-right {
-  flex: 2;
-  min-width: 300px;
-}
-
-.mission-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.mission-item .number {
-  font-size: 32px;
-  font-weight: bold;
-  color: #003366;
-}
-
-.mission-item p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #ffffff;
-  margin: 0;
-}
-
-.mission-right hr {
-  border: 0.5px solid #ffffff44;
-  margin: 10px 0;
-}
-
-.image-row {
-  background-color: #4b3f72; /* deep purple */
-  padding: 40px 20px;
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.image-row img {
-  width: 400px;
-  max-width: 90%;
-  border-radius: 12px;
-}
-
-.App {
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
-.App {
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
+} */

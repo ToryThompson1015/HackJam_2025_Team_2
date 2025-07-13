@@ -3,14 +3,14 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 60px;
+  height: 100px;
   width: 100%;
   font-family: "Arial", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   color: #ffffff;
   background-color: #0079c0;
-  padding: 30px 20px 0px 30px;
+  padding: 20px 20px 20px 20px;
 }
 
 .Navbar a {
@@ -30,15 +30,21 @@
   gap: 77.5px;
   align-items: center;
   background-color: #7dc5d7;
-  padding: 0px 20px;
-  border-radius: 5px;
+  padding: 20px 20px 10px 30px;
+  margin: 10px;
+  border-radius: 3px;
+
+  /* border-color: black;
+  border-style: solid;
+  border-width: 1px; */
 }
 
 .Nav-header {
-  color: #09507c;
+  color: #02273e;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
+  text-shadow: 1px 1px 2px #02273e;
 }
 
 .NavLinks {
@@ -58,20 +64,60 @@ ul {
   width: 80px;
   height: 80px;
   border-radius: 10%;
-  margin-right: 10px;
+  border-color: #eeeeee;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .LogOutButton {
   background-color: #f58832;
   color: #09507c;
-  border: none;
   padding: 10px 20px;
   border-radius: 5px;
-  margin-left: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   cursor: pointer;
   font-weight: 700;
   font-size: 20px;
+  border: none;
 }
 .LogOutButton:hover {
   background-color: #e07b2c;
 }
+
+/* Bakkar navbar code */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0033a0;
+  padding: 15px 30px;
+  color: white;
+} */
+
+/* .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */
+
+/* .logo-section img {
+  width: 35px;
+  height: 35px;
+} */
+
+/* .navbar h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-buttons button {
+  background-color: #ffc72c;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+} */
