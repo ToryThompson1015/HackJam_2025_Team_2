@@ -1,10 +1,12 @@
 import React from "react";
 import heroImage from "../../../../assets/images/heroImage.jpg";
+import SignedInNavBar from "../../../SignedInNavBar/NavBar";
 import "./styled.css";
 
 function HomePageHero() {
   return (
     <>
+      <SignedInNavBar />
       <div className="HeroContainer">
         <img src={heroImage} alt="Hero" className="HeroImage" />
         <div className="HeroText">

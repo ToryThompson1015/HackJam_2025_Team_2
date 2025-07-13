@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import React from "react";
-import toryProfile from "../../assets/images/staffprofile.jpg";
 import "./styles.css";
 
 function NavBar() {
@@ -14,33 +14,30 @@ function NavBar() {
           <div className="Nav-Links">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/contact">About</a>
+                <Link to="/">About</Link>
               </li>
               <li>
-                <a href="/contact">Alumni</a>
+                <Link to="/">Alumni</Link>
               </li>
               <li>
-                <a href="/about">Mentorship</a>
+                <Link to="/">Mentorship</Link>
               </li>
               <li>
-                <a href="/contact">New Learners</a>
+                <Link to="/">New Learners</Link>
               </li>
               <li>
-                <a href="/contact">Events</a>
+                <Link to="/">Events</Link>
               </li>
 
               <li>
-                <a href="/contact">My Profile</a>
+                <Link to="/">My Profile</Link>
               </li>
             </ul>
           </div>
-          <div className="Profile">
-            <img src={toryProfile} alt="Profile" className="ProfileImage" />
-          </div>
-          <button className="LogOutButton">Logout</button>
+          <button className="LogOutButton">Sign In</button>
         </div>
       </nav>
       <header className="App-header"></header>
