@@ -31,7 +31,7 @@ function NavBar() {
                 <Link to="/newlearners">Learners</Link>
               </li>
               <li>
-                <Link to="/contactmeetup">Events</Link>
+                <Link to="/meetup">Events</Link>
               </li>
               <li>
                 <Link to="/userprofile">Profile</Link>

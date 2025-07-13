@@ -7,6 +7,11 @@
   position: relative;
   height: 120vh;
   width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* padding-top: 80px; */
 }
 
 HeroContainer::before {
@@ -37,7 +42,7 @@ HeroContainer::before {
   text-align: center;
   z-index: 2;
   /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
-  width: 25%;
+  width: 500px;
   /* padding: 20px; */
   margin: 20px;
 }
