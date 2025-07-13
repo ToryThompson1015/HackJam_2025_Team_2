@@ -1,0 +1,15 @@
+/* src/Pages/UserProfilePage/UserProfile.css */
+.profile-page {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .section-one h2, .section-two h2 {
+    font-weight: bold;
+  }
+  
+  .badge {
+    font-size: 0.85rem;
+    padding: 0.5em 1em;
+    margin: 0.2em;
+  }
+  
