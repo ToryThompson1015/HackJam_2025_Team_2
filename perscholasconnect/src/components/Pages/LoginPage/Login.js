@@ -1,16 +1,26 @@
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import React from "react";
 import SignedOutNavBar from "../../SignedOutNavBar/NavBar";
+import CreateAccountPage from "../SignUp/Register";
+import LoginImage from "../../../assets/images/SignIn.jpg";
 
 import "./Login.css";
 
 function Login() {
+  const navigatetoHomepage = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigatetoHomepage("/home");
+  };
   return (
     <>
       <SignedOutNavBar />
       <div className="login-container">
         <div className="login-form">
           <h2>Welcome back!</h2>
-          <p className="subtext">Login to access all your data</p>
+          <p className="subtext">Please enter your email and password</p>
 
           <label>Email Address</label>
           <input type="email" placeholder="Enter your email address" />
@@ -18,7 +28,9 @@ function Login() {
           <label>Password</label>
           <input type="password" placeholder="Enter your password" />
 
-          <button className="primary-btn">Submit</button>
+          <button className="primary-btn" onClick={handleSubmit}>
+            Submit
+          </button>
 
           <div className="divider">
             <hr />
@@ -34,24 +46,13 @@ function Login() {
             Login with Google
           </button>
 
-          <button className="social-btn facebook">
-            <img
-              src="https://img.icons8.com/fluency/48/facebook-new.png"
-              alt="Facebook"
-            />
-            Login with Facebook
-          </button>
-
           <p className="register-text">
-            Don’t have an account? <a href="#">Register</a>
+            Don’t have an account? <Link to={CreateAccountPage}>Sign Up</Link>
           </p>
         </div>
 
         <div className="login-image">
-          <img
-            src="https://images.unsplash.com/photo-1581349482160-ef2c7d1e9f6c?auto=format&fit=crop&w=800&q=80"
-            alt="Styled model"
-          />
+          <img src={LoginImage} alt="Students and Alumni working together" />
         </div>
       </div>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import logoImage from "../../assets/images/logo.jpg";
 import toryProfile from "../../assets/images/staffprofile.jpg";
 import "./styles.css";
 
@@ -7,8 +8,8 @@ function NavBar() {
     <div className="App">
       <nav className="Navbar">
         <div className="MainNav">
-          <div className="Nav-header">
-            <h1>Per Scholas Connects</h1>
+          <div className="Nav-logo">
+            <img src={logoImage} alt="PerScholasConnectsLogo" />
           </div>
 
           <div className="Nav-Links">

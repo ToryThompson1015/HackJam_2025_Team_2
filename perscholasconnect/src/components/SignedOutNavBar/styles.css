@@ -1,5 +1,5 @@
 .Navbar {
-  /* display: flex; */
+  margin: 0px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -33,18 +33,14 @@
   padding: 20px 20px 10px 30px;
   margin: 10px;
   border-radius: 3px;
-
-  /* border-color: black;
-  border-style: solid;
-  border-width: 1px; */
 }
 
-.Nav-header {
-  color: #02273e;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 500;
-  text-shadow: 1px 1px 2px #02273e;
+.Nav-logo {
+  width: 150px;
+  height: auto;
+  padding: 0px;
+  margin-bottom: 10px;
+  border-radius: 5%;
 }
 
 .NavLinks {
