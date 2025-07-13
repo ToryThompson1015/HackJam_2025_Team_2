@@ -18,23 +18,23 @@ function NavBar() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">About</Link>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/">Alumni</Link>
+                <Link to="/createaccount">Alumni</Link>
               </li>
               <li>
-                <Link to="/">Mentorship</Link>
+                <Link to="/createaccount">Mentorship</Link>
               </li>
               <li>
-                <Link to="/">New Learners</Link>
+                <Link to="/createaccount">Learners</Link>
               </li>
               <li>
-                <Link to="/">Events</Link>
+                <Link to="/createaccount">Events</Link>
               </li>
 
               <li>
-                <Link to="/">My Profile</Link>
+                <Link to="/createaccount">Profile</Link>
               </li>
             </ul>
           </div>
