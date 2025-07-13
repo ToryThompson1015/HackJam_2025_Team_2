@@ -23,12 +23,18 @@ function Login() {
         </div>
 
         <button className="social-btn google">
-          <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google" />
+          <img
+            src="https://img.icons8.com/color/48/000000/google-logo.png"
+            alt="Google"
+          />
           Login with Google
         </button>
 
         <button className="social-btn facebook">
-          <img src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Facebook" />
+          <img
+            src="https://img.icons8.com/fluency/48/facebook-new.png"
+            alt="Facebook"
+          />
           Login with Facebook
         </button>
 

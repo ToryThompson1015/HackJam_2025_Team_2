@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function Register() {
+function SignUp() {
   return (
     <div className="page">
       <h2>Register Page</h2>
@@ -8,4 +8,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default SignUp;
