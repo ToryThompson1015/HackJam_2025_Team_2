@@ -2,7 +2,7 @@
 import React from "react";
 import SectionOne from "../UserProfilePage/SectionOne/sectionone";
 import SectionTwo from "../UserProfilePage/SectionTwo/sectiontwo";
-import "./UserProfile.css";
+import "./styled.css";
 
 const UserProfile = () => {
   return (
