@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import React from "react";
@@ -60,3 +61,5 @@ function Login() {
 }
 
 export default Login;
+=======
+>>>>>>> 46fa5c2f16063759c308871dd6e950a5ced4a62b

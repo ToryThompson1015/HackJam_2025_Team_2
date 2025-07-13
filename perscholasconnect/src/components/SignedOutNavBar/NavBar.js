@@ -34,7 +34,11 @@ function NavBar() {
               </li>
 
               <li>
+<<<<<<< HEAD:perscholasconnect/src/components/SignedOutNavBar/NavBar.js
                 <Link to="/createaccount">Profile</Link>
+=======
+                <a href="/dashboard">Dashboard</a>
+>>>>>>> 46fa5c2f16063759c308871dd6e950a5ced4a62b:perscholasconnect/src/components/NavBar/NavBar.js
               </li>
             </ul>
           </div>
@@ -46,4 +50,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBar; 

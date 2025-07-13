@@ -11,7 +11,7 @@ export default function Register() {
           initial={{ scale: 1 }}
           animate={{ scale: 1.05 }}
           transition={{ duration: 5, repeat: Infinity, repeatType: "reverse" }}
-          className="w-1/2 h-full overflow-hidden "
+          className="w-1/2 h-full overflow-hidden"
         >
           <img
             src={formImage}
@@ -70,6 +70,19 @@ export default function Register() {
                   type="password"
                   className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500"
                   placeholder="Create your password"
+                />
+              </div>
+              <div>
+                <label htmlFor="image" className="block mb-2 text-sm">
+                  Select Image:
+                </label>
+                <input
+                  required
+                  type="file"
+                  id="image"
+                  name="image"
+                  accept="image/*"
+                  className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-purple-500"
                 />
               </div>
 
