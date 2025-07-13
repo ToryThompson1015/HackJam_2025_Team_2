@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import logoImage from "../../assets/images/logo.jpg";
 import toryProfile from "../../assets/images/staffprofile.jpg";
@@ -15,26 +16,25 @@ function NavBar() {
           <div className="Nav-Links">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/about">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="/alumni">Alumni</a>
+                <Link to="/alumni">Alumni</Link>
               </li>
               <li>
-                <a href="/mentorship">Mentorship</a>
+                <Link to="/mentorship">Mentorship</Link>
               </li>
               <li>
-                <a href="/newlearners">Learners</a>
+                <Link to="/newlearners">Learners</Link>
               </li>
               <li>
-                <a href="/contactmeetup">Events</a>
+                <Link to="/contactmeetup">Events</Link>
               </li>
-
               <li>
-                <a href="/userprofile">Profile</a>
+                <Link to="/userprofile">Profile</Link>
               </li>
             </ul>
           </div>

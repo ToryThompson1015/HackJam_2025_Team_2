@@ -4,13 +4,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
 }
 
 .mission {
   text-align: center;
   max-width: 800px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   font-size: 16px;
   line-height: 1.5;
 }
@@ -31,56 +31,78 @@
 .mission-block {
   display: flex;
   flex-direction: row;
-  background-color: #0071ce; /* Per Scholas Blue */
+  background-color: #0079c0;
   color: white;
-  padding: 50px 30px;
+  padding: 10px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 10px;
+  font-weight: 600;
 }
 
 .mission-left {
   flex: 1;
-  display: flex;
+  /* display: flex; */
   align-items: flex-start;
   justify-content: flex-start;
   min-width: 250px;
+  padding: 0px;
 }
 
 .mission-left h2 {
-  font-size: 48px;
+  font-size: 60px;
   font-weight: bold;
-  color: #ffc72c; /* Gold */
+  color: #f58832;
   line-height: 1.2;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .mission-right {
-  flex: 2;
-  min-width: 300px;
+  flex: 1;
+  min-width: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .mission-item {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .mission-item .number {
-  font-size: 32px;
+  font-size: 50px;
   font-weight: bold;
   color: #003366;
 }
 
 .mission-item p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 18px;
+  /* line-height: 1.5; */
   color: #ffffff;
-  margin: 0;
+  margin: 5px;
 }
 
 .mission-right hr {
   border: 0.5px solid #ffffff44;
-  margin: 10px 0;
+  margin: 0px 0;
+}
+
+.PSMissionGraphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  background-color: #0079c0;
+}
+
+.PSMissionGraphic img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
