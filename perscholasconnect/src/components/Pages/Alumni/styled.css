@@ -1,0 +1,93 @@
+.alumni-page-container {
+  background: #09507c;
+  color: #fff;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.alumni-title {
+  color: #f58832;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.boards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 32px;
+}
+
+.board-card {
+  background: #fff;
+  color: #09507c;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  padding: 20px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.board-title {
+  color: #f58832;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.message-input,
+.message-textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  color: #02273e;
+}
+
+.message-textarea {
+  min-height: 48px;
+  resize: vertical;
+}
+
+.message-submit {
+  background: #f58832;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.message-submit:hover {
+  background: #d97706;
+}
+
+.message-board {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  background: #f3f3f3;
+  color: #09507c;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+}
