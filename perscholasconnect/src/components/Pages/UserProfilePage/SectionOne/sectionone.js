@@ -1,63 +1,87 @@
-// src/Pages/UserProfilePage/SectionOne/SectionOne.js
 import React from "react";
+import badgeMaverick from "../../../../assets/images/blackcircle.png";
+import badgeCaptain from "../../../../assets/images/redribbon.png";
+import badgeLegend from "../../../../assets/images/blackshield.png";
+import badgeCommander from "../../../../assets/images/blueribbon.png";
+import "./styled.css";
 
 const SectionOne = () => {
   return (
-    <div className="bg-yellow-300 p-6 rounded-md shadow-md w-full max-w-6xl">
-      <h2 className="text-3xl font-bold text-blue-900 mb-6">
-        Showcase Your Success
-      </h2>
-      <div className="flex flex-col md:flex-row gap-6">
+    <div className="showcase-container">
+      <h2 className="showcase-title">Tory T's Dashboard</h2>
+      <div className="showcase-flex">
         {/* Left Side */}
-        <div className="flex-1 bg-white border border-gray-300 p-4 rounded">
-          <p className="font-bold text-lg">John Smith</p>
-          <p>Alumni</p>
+        <div className="showcase-card">
+          <p className="showcase-name">Tory Thompson</p>
+          <p>Preffered Name: "Mr. T"</p>
+          <p>Per Scholas Staff</p>
           <p>Atlanta, GA</p>
 
-          <div className="mt-4">
-            <p>Software Engineering Graduate</p>
-            <p>3–5 years post graduation</p>
+          <div className="showcase-section">
+            <p>Director, Technical Instruction</p>
+            <p>The man with the plans</p>
+            <p>IT-Support Program Graduate</p>
+            <p>May 2017</p>
           </div>
 
-          <div className="mt-4">
-            <p className="font-semibold">
+          <div className="showcase-section">
+            <p className="showcase-section-title">
               Additional Per Scholas Certifications:
             </p>
-            <ul className="list-disc ml-5">
+            <ul className="showcase-list">
               <li>AWS</li>
+
               <li>Google IT</li>
               <li>CompTIA</li>
             </ul>
           </div>
 
-          <div className="mt-4">
-            <p className="font-semibold">About John:</p>
+          <div className="showcase-section">
+            <p className="showcase-section-title">About John:</p>
             <p>Passionate mentor and tech advocate.</p>
           </div>
         </div>
 
         {/* Right Side */}
-        <div className="flex-1 bg-white border border-gray-300 p-4 rounded">
-          <h4 className="text-xl font-semibold mb-2">
-            John's Achievement Dashboard
-          </h4>
+        <div className="showcase-card">
+          <h4 className="showcase-dashboard-title">Achievement Dashboard</h4>
           <p>
             <strong>Mentor Rating:</strong> ⭐⭐⭐⭐☆
           </p>
-          <p className="mt-4 font-semibold">Badges Earned:</p>
-          <div className="flex flex-wrap gap-2 mt-2">
-            <span className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm">
+          <p className="showcase-badges-title">Badges Earned:</p>
+          <div className="showcase-badges">
+            <div className="badge badge-gray badge-vertical">
+              <img
+                src={badgeMaverick}
+                alt="Mentoring Maverick badge"
+                className="badge-img"
+              />
               Mentoring Maverick
-            </span>
-            <span className="bg-red-500 text-white px-3 py-1 rounded-full text-sm">
+            </div>
+            <div className="badge badge-red badge-vertical">
+              <img
+                src={badgeCaptain}
+                alt="Community Captain badge"
+                className="badge-img"
+              />
               Community Captain
-            </span>
-            <span className="bg-yellow-400 text-black px-3 py-1 rounded-full text-sm">
+            </div>
+            <div className="badge badge-yellow badge-vertical">
+              <img
+                src={badgeLegend}
+                alt="Learning Legend badge"
+                className="badge-img"
+              />
               Learning Legend
-            </span>
-            <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm">
+            </div>
+            <div className="badge badge-green badge-vertical">
+              <img
+                src={badgeCommander}
+                alt="Career Commander badge"
+                className="badge-img"
+              />
               Career Commander
-            </span>
+            </div>
           </div>
         </div>
       </div>

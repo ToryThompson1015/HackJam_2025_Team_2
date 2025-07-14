@@ -1,0 +1,117 @@
+.showcase-container {
+  background: #09507c;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.showcase-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f58832;
+  margin-bottom: 24px;
+}
+
+.showcase-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .showcase-flex {
+    flex-direction: row;
+  }
+}
+
+.showcase-card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #d1d5db;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.showcase-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.showcase-section {
+  margin-top: 16px;
+}
+
+.showcase-section-title {
+  font-weight: 600;
+}
+
+.showcase-list {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.showcase-dashboard-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.showcase-badges-title {
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.showcase-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.badge {
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.badge-gray {
+  background: #ffffff;
+  color: #000;
+  border-color: #fec14f;
+  border-style: solid !important;
+  border-width: 5px !important;
+}
+.badge-red {
+  background: #ffffff;
+  color: #000;
+  border-color: #fec14f;
+  border-style: solid !important;
+  border-width: 5px !important;
+}
+.badge-yellow {
+  background: #ffffff;
+  border-color: #fec14f;
+  border-style: solid !important;
+  border-width: 5px !important;
+  color: #000;
+}
+.badge-green {
+  background: #ffffff;
+  color: #000;
+  border-color: #fec14f;
+  border-style: solid !important;
+  border-width: 5px !important;
+}
+
+.badge-img {
+  display: block;
+  margin: 0 auto 4px auto;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
