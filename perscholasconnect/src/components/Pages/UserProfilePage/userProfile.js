@@ -1,18 +1,18 @@
-// src/Pages/UserProfilePage/UserProfile.js
 import React from "react";
 import SectionOne from "../UserProfilePage/SectionOne/sectionone";
 import SectionTwo from "../UserProfilePage/SectionTwo/sectiontwo";
+import SectionThree from "../UserProfilePage/SectionThree/sectionthree";
 import SignedInNavBar from "../../SignedInNavBar/NavBar";
-
 import "./styled.css";
 
 const UserProfile = () => {
   return (
     <>
       <SignedInNavBar />
-      <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center gap-8 p-6">
+      <div className="user-profile-wrapper">
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
       </div>
     </>
   );
