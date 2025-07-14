@@ -1,0 +1,67 @@
+.learners-page {
+  background: #0079c0;
+  min-height: 100vh;
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.learners-sections {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.learner-section {
+  background: #fff;
+  color: #09507c;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 32px 24px;
+  flex: 1 1 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learner-header {
+  color: #f58832;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.learner-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 24px;
+  border-radius: 50%;
+  background: #e5e7eb;
+}
+
+.xp-leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.xp-leaderboard th,
+.xp-leaderboard td {
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.xp-leaderboard th {
+  background: #09507c;
+  color: #fff;
+  font-weight: 600;
+}
+
+.xp-leaderboard tr:nth-child(even) {
+  background: #f3f3f3;
+}
