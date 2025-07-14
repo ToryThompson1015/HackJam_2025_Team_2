@@ -35,7 +35,6 @@ function NavBar() {
 
               <li>
                 <Link to="/createaccount">Profile</Link>
-                <a href="/dashboard">Dashboard</a>
               </li>
             </ul>
           </div>
