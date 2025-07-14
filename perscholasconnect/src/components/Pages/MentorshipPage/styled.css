@@ -1,0 +1,70 @@
+.mentorship-page {
+  background: #09507c;
+  min-height: 100vh;
+  padding: 0 0 48px 0;
+}
+
+.mentorship-hero {
+  text-align: center;
+  padding: 40px 0 24px 0;
+  background: #09507c;
+  color: #fff;
+}
+
+.mentorship-hero img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.mentorship-hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+  color: #f58832;
+}
+
+.mentorship-filter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 32px auto 24px auto;
+  max-width: 900px;
+}
+
+.mentorship-filter-form select,
+.mentorship-filter-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #09507c;
+  font-size: 1rem;
+  min-width: 160px;
+}
+
+.mentorship-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mentor-card {
+  background: #fff;
+  color: #09507c;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  padding: 20px 16px 16px 16px;
+  text-align: left;
+}
+
+.mentorship-hero img {
+  display: block;
+  margin: 0 auto 16px auto;
+  width: 220px;
+  max-width: 90vw;
+  height: auto;
+}
